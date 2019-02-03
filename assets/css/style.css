@@ -1,0 +1,79 @@
+body {
+    background: no-repeat center/100% url(../images/palm-leaves-yellow-background_24972-68.jpg);
+    background-size: cover;
+    display: grid;
+    min-height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-emphasis: center;
+}
+
+h1 {
+    color: black;
+    border: brown solid 1px;
+    border-radius: 50px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+    font-size: 3em;
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#gifContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#addCategory,
+#categoryInput,
+#addTen,
+.drinkButton,
+.addFavorite,
+.downloadButton {
+    background-color: goldenrod;
+    color: black;
+    border: brown solid 1px;
+    border-radius: 25px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+    margin: 2px 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.gif {
+    border-radius: 6em;
+}
+
+/* p {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+h2 {
+    color: black;
+    border: brown solid 1px;
+    border-radius: 50px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bold;
+    font-size: 2em;
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+img {
+    border-radius: 100px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
